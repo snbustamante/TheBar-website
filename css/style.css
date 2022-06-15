@@ -168,6 +168,11 @@
     height: 330px;
 }
 
+.imgPL:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
 .section2 {
     grid-area: section2;
     display: flex;
