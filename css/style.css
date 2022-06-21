@@ -269,6 +269,21 @@
 
 .footer {
     grid-area: footer;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
+    display: flex;
+
+}
+
+.firstColumn {
+    width: 20%;
+}
+
+.firstColumn img {
+    width: 180px;
+    height: 60px;
+}
+
+.listColumn {
+    width: 25%;
 }
