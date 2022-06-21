@@ -13,7 +13,8 @@
         "prenav prenav prenav prenav"
         "nav nav nav nav"
         "banner banner banner banner"
-        "section1 section1 section1 section1"
+        ". title title ."
+        ". section1 section1 ."
         "section2 section2 section2 section2"
         "footer footer footer footer";
     background-color: #faf1ea;
@@ -141,35 +142,61 @@
     height: 100%;
 }
 
-.section1 {
-    grid-area: section1;
-    margin: 40px;
+.title {
+    grid-area: title;
 }
 
-.section1 h2 {
-    font-size: 36px;
+.title h1 {
+    font-size: 35px;
     font-family: 'Benne', serif;
     font-weight: lighter;
+    padding-top: 4rem;
 }
 
-
-.homePL {
+.section1 {
+    grid-area: section1;
     display: flex;
 }
 
 .eachProduct {
     display: flex;
     flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
 }
 
+.eachProduct h3{
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 22px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    width: 90%;
+    line-height: 2rem;
 
-.imgPL {
-    width: 330px;
-    height: 330px;
+}
+
+.eachProduct p {
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    font-weight: 100;
+    width: 90%;
+    line-height: 2rem;
+}
+
+.eachProduct img {
+    width: 100%;
+
 }
 
 .imgPL:hover{
-    transition: 1s;
+    transition: 0.5s;
     transform: scale(1.1);
 }
 
@@ -178,10 +205,10 @@
     display: flex;
     height: 600px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 3rem;
     padding-left: 80px;
     padding-right: 80px;
-    align-items: center;
+    justify-content: center;
 }
 
 .section2 img {
@@ -193,6 +220,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    max-width: 632.5px;
     background-color: white;
     align-items: center;
     justify-items: center;
