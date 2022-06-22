@@ -413,6 +413,7 @@
 .gfButton button {
     background-color: black;
     color: white;
+    font-size: 15px;
     font-weight: bolder;
     width: 10rem;
     height: 3rem;
