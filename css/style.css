@@ -6,6 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Pagina Home */
+
 .grilla {
     display: grid;
     grid-template-columns: 0.7fr 3fr 3fr 0.7fr;
@@ -205,7 +207,7 @@
     display: flex;
     height: 600px;
     padding-top: 20px;
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
     padding-left: 80px;
     padding-right: 80px;
     justify-content: center;
@@ -269,21 +271,136 @@
 
 .footer {
     grid-area: footer;
-    background-color: rgb(21, 21, 21);
+    background-color: rgba(28, 27, 27, 0.994);
     color: white;
+    padding-bottom: 64px;
     display: flex;
-
+    height: 300px;
 }
 
 .firstColumn {
-    width: 20%;
+    width: 30%;
+    padding-top: 40px;
+    padding-right: 3rem;
+    padding-left: 1rem;
 }
 
 .firstColumn img {
-    width: 180px;
-    height: 60px;
+    width: 200px;
+    height: 65px;
+    padding-left: 0.3rem;
+}
+
+.firstColumn p {
+    padding-left: 1rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .listColumn {
-    width: 25%;
+    width: 20%;
+    padding-top: 64px;
 }
+
+.listColumn h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.listColumn ul li {
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+/* Página Gift Finder */
+
+.grilla2 {
+    background-color: #faf1ea;
+}
+
+.gfBanner {
+    background-color: black;
+    color: white;
+    height: 250px
+}
+
+.gfBannerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+.gfBannerText label {
+    font-size: smaller;
+    padding-left: 3.5rem;
+}
+
+.gfBannerText h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    font-size: 68px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+}
+
+.gfTitle h1 {
+    font-size: 45px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    width: 70%;
+    line-height: 3.5rem;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+
+.occasion {
+    grid-area: occasion;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flavour {
+    grid-area: flavour;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.gfEachOption {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+.gfEachOption img{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+}
+
+.gfEachOption label {
+    font-size: smaller;
+    margin: 1rem auto;
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
