@@ -404,3 +404,22 @@
     text-decoration: underline;
 }
 
+.gfButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.gfButton button {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.gfButton button:hover {
+    background-color: rgb(103, 102, 111);
+}
