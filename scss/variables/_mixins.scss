@@ -1,1 +1,5 @@
 // Igual que el extend pero se le puede agregar parametros. Empiez con @mixin y en el css se invoca @include y el nombre del mixin//
+@mixin estiloTitulo ($letra, $tamanio) {
+    font-family: $letra;
+    font-size: $tamanio; 
+}

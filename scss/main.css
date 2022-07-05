@@ -7,10 +7,13 @@
 }
 
 .grilla {
+  background-color: #faf1ea;
+}
+
+.grilla {
   display: grid;
   grid-template-columns: 0.7fr 3fr 3fr 0.7fr;
   grid-template-areas: "prenav prenav prenav prenav" "nav nav nav nav" "banner banner banner banner" ". title title ." ". section1 section1 ." "section2 section2 section2 section2" "footer footer footer footer";
-  background-color: #faf1ea;
 }
 
 .preheader {
@@ -161,7 +164,7 @@
 .title {
   grid-area: title;
 }
-.title h1 {
+.title h2 {
   font-size: 35px;
   font-family: "Benne", serif;
   font-weight: lighter;
@@ -234,13 +237,13 @@
   align-items: center;
   justify-items: center;
 }
-.parrafoCarrousel h4 {
+.parrafoCarrousel label {
   font-size: smaller;
   font-weight: bolder;
   text-align: center;
   padding-top: 100px;
 }
-.parrafoCarrousel h1 {
+.parrafoCarrousel h2 {
   padding-top: 35px;
   font-size: 45px;
   max-width: 400px;
