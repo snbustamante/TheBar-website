@@ -1,0 +1,175 @@
+.banner {
+  grid-area: banner;
+  background-color: white;
+  display: flex;
+  height: 560px;
+
+  &__text {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  &__label {
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  &__title {
+    padding-top: 3rem;
+    font-size: 55px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    line-height: 35px;
+  }
+
+  &__p {
+    max-width: 85%;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    font-weight: 100;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .btn {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(103, 102, 111);
+    }
+  }
+
+  &__img {
+    height: 100%;
+  }
+}
+
+.title {
+  grid-area: title;
+
+  h1 {
+    font-size: 35px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    padding-top: 4rem;
+  }
+}
+
+.section1 {
+  grid-area: section1;
+  display: flex;
+}
+
+.eachProduct {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+  padding-bottom: 2rem;
+  padding-right: 0.5rem;
+
+  h3 {
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 22px;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    width: 90%;
+    line-height: 2rem;
+  }
+
+  p {
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    font-weight: 100;
+    width: 90%;
+    line-height: 2rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.imgPL:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.section2 {
+  grid-area: section2;
+  display: flex;
+  height: 600px;
+  padding-top: 20px;
+  padding-bottom: 10rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: center;
+
+  img {
+    height: 100%;
+  }
+}
+
+.parrafoCarrousel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 632.5px;
+  background-color: white;
+  align-items: center;
+  justify-items: center;
+
+  h4 {
+    font-size: smaller;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  h1 {
+    padding-top: 35px;
+    font-size: 45px;
+    max-width: 400px;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-weight: lighter;
+    line-height: 55px;
+  }
+
+  p {
+    max-width: 65%;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    font-weight: 100;
+  }
+
+  a {
+    font-size: smaller;
+    margin: 1rem auto;
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+
+    &:hover {
+      color: rgb(128, 127, 127);
+    }
+  }
+}

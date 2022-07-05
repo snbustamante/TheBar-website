@@ -1,0 +1,48 @@
+.footer {
+    grid-area: footer;
+    background-color: rgba(28, 27, 27, 0.994);
+    color: white;
+    padding-bottom: 64px;
+    display: flex;
+    height: 300px;
+  }
+  
+  .firstColumn {
+    width: 30%;
+    padding-top: 40px;
+    padding-right: 3rem;
+    padding-left: 1rem;
+  
+    img {
+      width: 200px;
+      height: 65px;
+      padding-left: 0.3rem;
+    }
+  
+    p {
+      padding-left: 1rem;
+      font-family: 'Nunito', sans-serif;
+    }
+  }
+  
+  .listColumn {
+    width: 20%;
+    padding-top: 64px;
+  
+    h3 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+    }
+  
+    ul li {
+      font-family: 'Nunito', sans-serif;
+      list-style: none;
+      padding-bottom: 0.5rem;
+      padding-top: 1rem;
+      font-size: 14px;
+    }
+  }
+  
+  /* Página Gift Finder */
+  
+  
