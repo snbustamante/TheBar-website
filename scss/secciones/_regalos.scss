@@ -1,7 +1,6 @@
-#regalos
 
 .grilla2 {
-    background-color: #faf1ea;
+    @extend %BgColor
   }
   
   .gfBanner {

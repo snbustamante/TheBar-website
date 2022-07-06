@@ -6,7 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.grilla {
+.grilla2, .grilla {
   background-color: #faf1ea;
 }
 
@@ -271,10 +271,6 @@
 }
 .parrafoCarrousel a:hover {
   color: rgb(128, 127, 127);
-}
-
-#regalos .grilla2 {
-  background-color: #faf1ea;
 }
 
 .gfBanner {
